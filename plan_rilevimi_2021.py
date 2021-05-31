@@ -2,9 +2,9 @@ import arcpy
 import math
 
 #parcels and centroids
-workspace = r"C:\FVLADI_Data\BA3_gis_cadaster\Blue_Solar_PowerPlant\plane_rilevimi\20210408_planeRilevimi_Blue2\Geodatabase.gdb"
-parcels = r"C:\FVLADI_Data\BA3_gis_cadaster\Blue_Solar_PowerPlant\plane_rilevimi\20210408_planeRilevimi_Blue2\Geodatabase.gdb\Parcel_Krrgjsh"
-cntr = r"C:\FVLADI_Data\BA3_gis_cadaster\Blue_Solar_PowerPlant\plane_rilevimi\20210408_planeRilevimi_Blue2\Geodatabase.gdb\Parcel_Krrgjsh_centroid"
+workspace = r"workspace_path"
+parcels = r"parcel_featureclass_krrgjsh"
+cntr = r"Parcel_centroid_krrgjsh"
 arcpy.env.workspace = workspace
 
 
